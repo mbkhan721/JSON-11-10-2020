@@ -60,6 +60,12 @@ export const r1 = {
 	],
 
 "skills":[
+
+  {
+		"skill": "Front End Developer",
+		"level": "90%"
+	},
+
 	{
 		"skill": "Adobe Photoshop",
 		"level": "90%"
