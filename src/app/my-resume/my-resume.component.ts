@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CartService } from '../cart.service';
+import { r1 } from '../products';
 
 @Component({
   selector: 'app-my-resume',
@@ -8,14 +9,17 @@ import { CartService } from '../cart.service';
 })
 export class MyResumeComponent implements OnInit {
 
-  shippingCosts; 
+  resumeItems; 
+  profile = r1.profile;
+  workExpeience = r1.workExperience ;
+  education = r1.education ;
 
   constructor(
     private cartService: CartService
   ) { }
 
   ngOnInit() {
-    this.shippingCosts = this.cartService.getShippingPrices();
+    this.resumeItems = this.cartService.getResume();
   }
 
 }

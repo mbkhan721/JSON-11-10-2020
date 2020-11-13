@@ -25,7 +25,7 @@
       "number": "646 555-4567"
     }
   ],
-"languages":[
+  "languages":[
 	{
 		"language": "English",
 		"level": "100%"
@@ -42,7 +42,7 @@
 	
 	],
 
-"skills":[
+ "skills":[
 	{
 		"skill": "Adobe Photoshop",
 		"level": "90%"
@@ -61,7 +61,7 @@
 		"skill": "Media",
 		"level": "50%"
 	}
-	],
+	]
 
   },
   
