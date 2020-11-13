@@ -25,6 +25,10 @@ export class CartService {
     return this.http.get('/assets/graphic.json');
   }
 
+  getResume() {
+    return this.http.get('/assets/resume.json');
+  }
+
   constructor(
     private http: HttpClient,
   ) { }
