@@ -24,6 +24,7 @@ export const r1 = {
   "age": 27,
   "photo": "https://www.w3schools.com/w3images/avatar_hat.jpg",
   "profession": "Designer",
+
   "address": {
     "streetAddress": "21 2nd Street",
     "city": "New York,",
@@ -46,7 +47,18 @@ export const r1 = {
   ],
 
   
+  "education":[
   
+    {
+		"college": "Queensborough Community",
+		"enrollment": "Jan 2019 - Present"
+	},
+
+  {
+    "college": "w3schools",
+    "enrollment": "Forever"
+  }
+  ],
 
   
 
@@ -100,35 +112,21 @@ export const r1 = {
 	}
 	],
 
+
+
+"workExperience":[
+
+  {
+ 	 "workExperience": "JSON Web Developer",
+	 "date": "November 1 - Present"
+	},
+
+ ],
+
   
 }
 }
 
-export const r2 = {
-
-  "education":[
-    {
-		"college": "Queensborough Community",
-		"enrollment": "Jan 2019 - Present"
-	},
-
-  {
-    "college": "w3schools",
-    "enrollment": "Forever"
-  }
-  ],
-
-}
-
-
-export const r3 = {
-   "workExperience":[
-    {
-		"workExperience": "JSON Web Developer",
-		"date": "November 1 - Present"
-	},
-  ],
-}
 
 /*
 Copyright Google LLC. All Rights Reserved.
