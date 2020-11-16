@@ -54,8 +54,13 @@ export const r1 = {
 	},
 		{
 		"language": "Italian",
+		"level": "45%"
+	},
+    
+    {
+		"language": "Mandarin",
 		"level": "25%"
-	}
+	},
 	
 	],
 
@@ -89,8 +94,24 @@ export const r1 = {
   },
   
   
-  "workExperience": [],
-  "education": []
+  "workExperience": [
+
+    {
+		"work": "JSON Web Developer",
+		"date": "November 1 - Present"
+	},
+
+  ],
+
+
+  "education": [
+
+    {
+		"college": "Queensborough Community",
+		"enrollment": "Jan 2019 - Present"
+	}
+
+  ]
 }
 
 
