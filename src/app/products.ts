@@ -45,22 +45,10 @@ export const r1 = {
     }
   ],
 
-  "workExperience":[
-
-    {
-		"workExperience": "JSON Web Developer",
-		"date": "November 1 - Present"
-	},
-  ],
+  
   
 
-  "education":[
-
-    {
-		"college": "Queensborough Community",
-		"enrollment": "Jan 2019 - Present"
-	},
-  ],
+  
 
 
 "languages":[
@@ -116,6 +104,31 @@ export const r1 = {
 }
 }
 
+export const r2 = {
+
+  "education":[
+    {
+		"college": "Queensborough Community",
+		"enrollment": "Jan 2019 - Present"
+	},
+
+  {
+    "college": "w3schools",
+    "enrollment": "Forever"
+  }
+  ],
+
+}
+
+
+export const r3 = {
+   "workExperience":[
+    {
+		"workExperience": "JSON Web Developer",
+		"date": "November 1 - Present"
+	},
+  ],
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.
