@@ -32,6 +32,8 @@ export const r1 = {
     "country": "USA",
     "email": "janesmith@mail.com"
   },
+
+
   "phoneNumbers": [
     {
       "type": "home",
@@ -42,6 +44,25 @@ export const r1 = {
       "number": "646 555-4567"
     }
   ],
+
+  "workExperience":[
+
+    {
+		"workExperience": "JSON Web Developer",
+		"date": "November 1 - Present"
+	},
+  ],
+  
+
+  "education":[
+
+    {
+		"college": "Queensborough Community",
+		"enrollment": "Jan 2019 - Present"
+	},
+  ],
+
+
 "languages":[
 	{
 		"language": "English",
@@ -91,27 +112,8 @@ export const r1 = {
 	}
 	],
 
-  },
   
-  
-  "workExperience": [
-
-    {
-		"work": "JSON Web Developer",
-		"date": "November 1 - Present"
-	},
-
-  ],
-
-
-  "education": [
-
-    {
-		"college": "Queensborough Community",
-		"enrollment": "Jan 2019 - Present"
-	}
-
-  ]
+}
 }
 
 

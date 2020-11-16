@@ -1,3 +1,4 @@
+<!--
 <div class="w3-container w3-card w3-white">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
         <div class="w3-container">
@@ -18,3 +19,28 @@
           <p>Bachelor Degree</p><br>
         </div>
       </div>
+-->
+
+<div class="w3-container w3-card w3-white">
+  <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+  <h2>{{education.college}} {{education.enrollment}}</h2>
+  <p>{{education.college}}</p>
+
+  <h2>{{profile.college}} {{profile.enrollment}}</h2>
+  <p>{{profile.college}}</p>    
+
+
+ <div *ngFor="let college of profile.education">
+  <p>{{college.college}}</p>
+
+  <h2>{{education.college}} {{education.enrollment}}</h2>
+  <p>{{education.college}}</p>
+
+  <h2>{{profile.college}} {{profile.enrollment}}</h2>
+  <p>{{profile.college}}</p>
+
+  <div class="w3-light-grey w3-round-xlarge w3-small">
+  <div{{college.enrollment}}</div>
+  </div>
+
+</div>
