@@ -35,9 +35,17 @@
 <div>
 <h2>Education</h2>
 
+
+<ul>
+  <li *ngFor="let education of profile.education"></li>
+  
+    <p>{{college.college}}</p>
+    {{education.enrollment}},
+    <p>education works</p>
+</ul>
   
 
-  <p>testing</p>
+  <p>testing education</p>
 
   <h2>{{education.college}}</h2>
   
