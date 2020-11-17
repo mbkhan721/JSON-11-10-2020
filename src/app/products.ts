@@ -110,18 +110,16 @@ export const r1 = {
 		"skill": "Media",
 		"level": "50%"
 	}
-	],
-
-
-
+],
 "workExperience":[
 
   {
- 	 "workExperience": "JSON Web Developer",
-	 "date": "November 1 - Present"
+ 	 "title": "Front End Developer / w3schools.com",
+	 "startDate": "Jan 2015 -",
+   "Description": "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.",
 	},
 
- ],
+],
 
   
 }
