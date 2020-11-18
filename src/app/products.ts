@@ -123,7 +123,7 @@ export const r1 = {
     {
       "institution": "W3Schools.com",
       "startDate": "2019",
-      "endDate": "",
+      "endDate": "Forever",
       "about": "Web Development! All I need to know in one place",
     },
 
