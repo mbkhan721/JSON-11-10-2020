@@ -8,7 +8,7 @@ import { Input } from '@angular/core' ;
 })
 export class ResumeEducationComponent implements OnInit {
 
-  @Input() education ;
+  @Input() profile ;
 
   constructor() { }
 
