@@ -16,25 +16,23 @@ export const products = [
   }
 ];
 
+
 export const r1 = {
   "profile":{
   "firstName": "Jane",
-  "lastName": "Smith",
+  "lastName": "Jones",
   "isAlive": true,
   "age": 27,
   "photo": "https://www.w3schools.com/w3images/avatar_hat.jpg",
   "profession": "Designer",
-
   "address": {
     "streetAddress": "21 2nd Street",
-    "city": "New York,",
+    "city": "New York ",
     "state": "NY",
     "postalCode": "10021-3100",
     "country": "USA",
-    "email": "janesmith@mail.com"
+    "email": "ex@mail.com"
   },
-
-
   "phoneNumbers": [
     {
       "type": "home",
@@ -45,24 +43,6 @@ export const r1 = {
       "number": "646 555-4567"
     }
   ],
-
-  
-  "education":[
-  
-    {
-		"college": "Queensborough Community",
-		"enrollment": "Jan 2019 - Present"
-	},
-
-  {
-    "college": "w3schools",
-    "enrollment": "Forever"
-  }
-  ],
-
-  
-
-
 "languages":[
 	{
 		"language": "English",
@@ -74,27 +54,16 @@ export const r1 = {
 		"level": "50%"
 	},
 		{
-		"language": "Italian",
-		"level": "45%"
-	},
-    
-    {
-		"language": "Mandarin",
+		"language": "German",
 		"level": "25%"
-	},
+	}
 	
 	],
 
 "skills":[
-
-  {
-		"skill": "Front End Developer",
-		"level": "90%"
-	},
-
 	{
 		"skill": "Adobe Photoshop",
-		"level": "90%"
+		"level": "95%"
 	},
 	
 		{
@@ -103,28 +72,43 @@ export const r1 = {
 	},
 		{
 		"skill": "Illustrator",
-		"level": "75%"
+		"level": "85%"
 	},
 	
 		{
 		"skill": "Media",
 		"level": "50%"
-	}
-],
-"workExperience":[
-
-  {
- 	 "title": "Front End Developer / w3schools.com",
-	 "startDate": "Jan 2015 -",
-   "Description": "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.",
 	},
+  	{
+		"skill": "Angular",
+		"level": "97%"
+	}
+	],  
+  "workExperience": [
+    {
+	  	"title": "Front End Developer / w3schools.com",
+	  	"startDate": "Jan 2015",
+      "endDate": "",
+      "description": "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+    },
+    {
+	  	"title": "Web Developer / something.com",
+	  	"startDate": "Mar 2012",
+      "endDate": "Dec 2014",
+      "description": "Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+    },
 
-],
-
-  
+    {
+	  	"title": "Graphic Designer / designsomething.com",
+	  	"startDate": "Jun 2010",
+      "endDate": "Mar 2012",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }
+    
+    ],
+  "education": []
 }
 }
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
